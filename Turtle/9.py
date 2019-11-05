@@ -3,12 +3,10 @@ import math
 
 turtle.shape("turtle")
 
-
 def polygone(angles, length):
     for i in range(angles):
         turtle.lt(360/angles)
         turtle.fd(length)
-
 
 
 angles = 3
